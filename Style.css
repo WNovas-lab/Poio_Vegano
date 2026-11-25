@@ -1,0 +1,106 @@
+body {
+  
+  background-image: url("Img_Poio-pastel.jpg");
+  background-position: center;
+  /*
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  */
+
+border-color: lightblue;
+  border-width: 10px;
+  border-style: double;
+  border-radius: 5px;
+   padding: 2px;
+}
+  
+
+
+h1{
+  font-weight: bold;
+  font-size: 60px;
+  color: blueviolet;
+  text-decoration-line: underline;
+  text-align: center;
+  
+}
+
+h2{
+  font-weight: bold;
+   font-style: italic;
+  font-size: 40px;
+   text-align: center; 
+}
+
+h3{
+  font-weight: bold;
+    font-style: oblique;
+  font-size: 20px;
+   text-align: center; 
+    }
+h4{ margin: 20px  ;}
+
+
+li  {text-align: left;
+      margin: 10px;  
+      text-indent: 10px;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+ul{ margin: 50px  ;}
+
+img {
+  /*float: left */
+  float: left;
+  height: 150px;
+ /* width: 50%; /*250px; **/
+  margin: 10px;  
+  border-color:lightpink;
+  border-width: 6px;
+  border-style: groove ;
+  border-radius: 10px;
+}
+
+
+.container_bebidas {
+  display: Flex;
+
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Opcional: centra horizontalmente */
+ 
+  height: 250px; /* Es necesario definir una altura en el contenedor */
+  border: 2px solid #ccc;
+  
+}
+/***********************/
+div_Menu {
+        margin: 0;
+        padding: 0;
+}
+.container_Menu {
+        <!-----background: #DDD; --------->
+        
+        width: 1200px;
+        margin: 0 auto;
+        padding: 2% 0;
+}
+.block_Menu {
+         <!----- background: #555; --------->
+       
+        width: 100%;
+        display: block;
+}
+.col_Menu {
+        width: 49%;
+        display: inline-block;
+      
+}
+.col_Menu {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+
+  }
+
